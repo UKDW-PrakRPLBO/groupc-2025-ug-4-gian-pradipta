@@ -24,7 +24,7 @@
 - __connect(Colokan : colokan)__
     menerima parameter berupa colokan. method ini berfungsi mengisi properti colokan dengan parameter yang sudah diberikan.  Printlah sebuah pesan jika menjalankan method ini! (_System.out.println("Berhasil Connect ke - " + colokan.getMerk()_))
 - __getResolution()__
-      jika bandwith dari colokan: 10 - 35 mbps, maka resolusi 480p. Jikan resolusi 35 - 100, resolusi 720p, di atas itu 1080p. Perhatikan juga max resolusi dari TV. Jika resolusi yang bisa didapatkan dari bandwidth adalah 1080p, tetapi maxResolusi TV adalah 720p, maka fungsi ini akan return 720p.
+      jika bandwith dari colokan: 10 - 35 mbps, maka resolusi 480p. Jikan resolusi 35 - 100, resolusi 720p, di atas itu 1080p. Perhatikan juga max resolusi dari TV. Di bawah 10mbps, ga nyala. Jika resolusi yang bisa didapatkan dari bandwidth adalah 1080p, tetapi maxResolusi TV adalah 720p, maka fungsi ini akan return 720p.
 
 # OUTPUT
 
